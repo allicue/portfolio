@@ -1,5 +1,6 @@
 #header {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -20,7 +21,7 @@
   height: 40vh;
   margin-bottom: 0;
   font-size: 110px;
-  color: #FFE8D6;
+  color: white;
   line-height: 100px;
   text-shadow: 2px 2px #DDBEA9;
 }
@@ -29,17 +30,27 @@
   display: flex;
   align-items: flex-end;
   align-content: flex-end;
-  /* padding-top: px; */
   width: 200px;  
   height: 40vh; 
   margin-bottom: 0;
   font-size: 35px;
-  color: #DDBEA9;
+  color: #FFE8D6;
+}
+
+.header-carousel-container {
+  margin: 0px;
+  margin: 0 auto;
+}
+
+.page-break{
+  height: 1px;
+  width: 75%;
+  margin-top: -40px;
+  border: solid 1px whitesmoke;
 }
 
 .explore-container {
   margin: 0 auto;
-  margin-top: -40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,21 +58,24 @@
 }
 
 .explore-button {
-  width: 70px;
+  width: 75px;
+  height: 75px;
   margin-bottom: 40px;
   background: none;
+  border-radius: 50%;
   border: none;
   outline: none;
+  
 }
 
 .explore-button:hover {
   cursor: pointer;
+  background-color: #DDBEA9;
 }
 
 #explore-arrow {
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
   width: 50px;
 }
 
-.header-carousel-container {
-  margin: 0 auto;
-}

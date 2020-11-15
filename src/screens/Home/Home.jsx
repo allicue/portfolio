@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./Home.css";
 import Arrow from '../../assets/arrow.png';
 import NavBar from '../../components/NavBar/NavBar';
@@ -16,9 +17,10 @@ function Home(props) {
         <div className="header-carousel-container">
           <WordCarousel />
         </div>
+        <hr className="page-break"></hr>
         <div className="explore-container">
           <h3>EXPLORE WORK</h3>
-          <button className="explore-button"><img id="explore-arrow" alt="arrow" src={Arrow} /></button>
+          <Link to="/portfolio"> <button className="explore-button"><img id="explore-arrow" alt="arrow" src={Arrow} /></button></Link>
         </div>
       </header>
       <body>

@@ -5,13 +5,13 @@ function WordAnimation(props) {
   return (
     <div>
           <h4 className="wordCarousel">    
-          <span>Word swipe animation: </span>  
+          <span>A LITTLE ABOUT ME:</span>  
           <div className="animation-div"> 
               <ul className="flip4"> 
-                  <li>Oh My!</li>
-                  <li>Swoosh</li>
-                  <li>Cool</li> 
-                  <li>Awesome</li>  
+                  <li>WEB DEVELOPER</li>
+                  <li>TRAVEL ENTHUSIAST</li>
+                  <li>KARAOKE LOVER</li> 
+                  <li>NEW YORKER</li>  
               </ul>
           </div>  
         </h4>
