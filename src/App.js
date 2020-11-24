@@ -6,6 +6,7 @@ import Home from './screens/Home/Home';
 import Portfolio from './screens/Portfolio/Portfolio';
 
 function App() {
+
   return (
     <div className="App">
       <Switch>

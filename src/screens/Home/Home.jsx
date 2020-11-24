@@ -7,7 +7,7 @@ import WordCarousel from '../../components/WordAnimation/WordAnimation';
 
 function Home(props) {
   return (
-    <div className="homepage">
+    <div>
       <header id="header">
       <NavBar />
         <div className="homepage-title">
@@ -23,9 +23,6 @@ function Home(props) {
           <Link to="/portfolio"> <button className="explore-button"><img id="explore-arrow" alt="arrow" src={Arrow} /></button></Link>
         </div>
       </header>
-      <body>
-
-      </body>
     </div>
   );
 }
