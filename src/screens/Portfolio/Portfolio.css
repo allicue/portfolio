@@ -9,18 +9,23 @@
   padding-top: 100px;
 }
 
-.portfolio-subtitle {
+.portfolio-text-container {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.portfolio-subtitle {
   color: white;
-  font-size: 50px;
+  font-size: 100px;
   line-height: 100px;
   text-shadow: 2px 2px #DDBEA9;
+  margin-bottom: 0px;
 }
 
 .portfolio-text {
-  width: 80%;
-  margin: 0 auto;
   color: #FFE8D6;
 }
 
