@@ -9,7 +9,6 @@ import ProjectDetails from './screens/ProjectDetails/ProjectDetails';
 
 function App() {
 
-
   const [listItems, setListItems] = useState("")
   const [fetchItems, setFetchItems] = useState(false);
   
