@@ -1,6 +1,5 @@
 .footer {
   display: flex;
-  /* justify-content: flex-end; */
   align-items: center;
   width: 100%;
   background-color: #DDBEA9;
@@ -24,9 +23,18 @@
 
 }
 
-
-
 .footer-icon {
   width: 30px;
   margin-left: 10px;
+}
+
+/* MOBILE BREAKPOINT */
+
+@media only screen and (max-width: 600px) {
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+
 }

@@ -75,3 +75,61 @@
   text-decoration: none;
   color: white;
 }
+
+/* MOBILE BREAKPOINT */
+
+@media only screen and (max-width: 600px) {
+
+  .portfolio {
+    padding-top: 50px;
+  }
+  
+  .portfolio-text-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%;
+    margin: 0 auto;  
+    margin-top: 50px;
+  }
+
+  .portfolio-subtitle {
+    font-size: 50px;
+  }
+  
+  .thumbnail-images {
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .thumbnail-text-container {
+    height: 300px;
+  }
+  
+  .thumbnail-text {
+    z-index: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-shadow: 2px 2px #DDBEA9;
+  }
+  
+  .portfolio-link {
+    width: 300px;
+    text-decoration: none;
+    color: white;
+  }
+
+}

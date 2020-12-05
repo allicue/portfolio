@@ -26,7 +26,8 @@ function AboutMe(props) {
             </p>
 
             <div className='details-button-container'>
-              <a className='details-button-containers' rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1eapdjCbebQLIxAqD7bIRwjFEvTmpypHNPTpRZ6EqhOY/export?format=pdf'>RESUME</a>
+              <a className='details-button-containers resume-button' rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1eapdjCbebQLIxAqD7bIRwjFEvTmpypHNPTpRZ6EqhOY/export?format=pdf'>RESUME</a>
+              <br></br>
             </div>
           </section>
         </div>

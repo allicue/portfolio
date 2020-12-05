@@ -35,8 +35,6 @@ function ProjectDetails(props) {
             
           </section>
         </div>
-        
-        
       </div>
       <Footer />
     </div>

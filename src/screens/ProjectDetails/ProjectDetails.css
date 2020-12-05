@@ -43,6 +43,7 @@
 }
 
 .text {
+  margin-top: 0px;
   color: white;
   font-size: 20px;
 }
@@ -80,4 +81,69 @@
 #external-link {
   width: 25px;
   margin-left: 8px;
+}
+
+
+/* MOBILE BREAKPOINT */
+
+@media only screen and (max-width: 600px) {
+  .project-details {
+    padding-top: 50px;
+  }
+  
+  .proj-name {
+    font-size: 50px;
+    line-height: 80px;
+  }
+  
+  .project-details-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .details-button-container {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   margin-top: 40px;
+  }
+  
+  .details-button-containers {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+  
+  .details-button-containers:hover {
+    font-size: large;
+  }
+  
+  #github {
+    width: 30px;
+    margin-left: 8px;
+  }
+  
+  #external-link {
+    width: 25px;
+    margin-left: 8px;
+  }
+  
 }

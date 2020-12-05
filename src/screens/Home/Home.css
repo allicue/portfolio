@@ -78,3 +78,57 @@
   width: 50px;
 }
 
+/* MOBILE BREAKPOINT */
+
+@media only screen and (max-width: 600px) {
+
+  #header {
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .homepage-title {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #homepage-title {
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+    text-shadow: 2px 2px #DDBEA9;
+  }
+  
+  #homepage-subtitle {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 200px;  
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #FFE8D6;
+  }
+  
+  .header-carousel-container {
+    display: none;
+  }
+  
+  .page-break{
+    width: 60%;
+    margin-top: 40px;
+  }
+}

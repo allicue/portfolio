@@ -24,3 +24,29 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* MOBILE BREAKPOINT */
+
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    font-family: 'Jost', sans-serif;
+    background-color: #DDBEA9;
+    z-index: 5;
+  }
+  
+  .nav {
+    margin-right: 0px;
+    font-size: 15px;
+  }
+
+  .navend {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
