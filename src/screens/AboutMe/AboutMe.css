@@ -1,9 +1,37 @@
 .about-me {
   width: 100%;
+  min-height: 100vh;
   height: 100%;
-  display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: #CB997E;
   font-family: 'Jost', sans-serif;
+  padding-top: 100px;
+}
+
+.about-me-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.about-column {
+  width: 50%
+}
+
+.about-column-a {
+  text-align: center;
+}
+
+#aboutme-text {
+  color: white;
+  font-size: 20px;
+}
+
+.profile-pic {
+  width: 70%;
+  background-position: center;
+  border: 1px solid white;
+  border-radius: 50%;
 }

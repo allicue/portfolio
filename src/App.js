@@ -6,6 +6,7 @@ import AboutMe from './screens/AboutMe/AboutMe';
 import Home from './screens/Home/Home';
 import Portfolio from './screens/Portfolio/Portfolio';
 import ProjectDetails from './screens/ProjectDetails/ProjectDetails';
+import Contact from './screens/Contact/Contact';
 
 function App() {
 
@@ -41,6 +42,10 @@ function App() {
 
         <Route path='/portfolio'>
           <Portfolio listItems={listItems}/>
+        </Route>
+
+        <Route path='/contact'>
+          <Contact />
         </Route>
 
       </Switch>
