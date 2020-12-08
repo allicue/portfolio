@@ -10,9 +10,6 @@ function Portfolio(props) {
   return (
     <div >
       <NavBar />
-
-
-
       <div className='portfolio'>
 
         <div className='portfolio-text-container'>
