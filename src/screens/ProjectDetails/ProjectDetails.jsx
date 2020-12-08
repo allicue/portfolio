@@ -21,7 +21,7 @@ function ProjectDetails(props) {
         <div className='project-details-container'>
           <section className="column column-a">
             <h3 className='subtext'>MOBILE VIEW</h3>
-            <a rel="noreferrer" target="_blank" href={project && project.fields.website}><img id='mobile-img' src={project && project.fields.mobileimg} /></a>
+            <a rel="noreferrer" target="_blank" href={project && project.fields.website}><img id='mobile-img' alt="mobile-view" src={project && project.fields.mobileimg} /></a>
           </section>
           <section className="column column-b">
             <h3 className='subtext'>DESCRIPTION</h3>
@@ -29,7 +29,7 @@ function ProjectDetails(props) {
             <h3 className='subtext'>BUILT WITH</h3>
             <p className='text'>{project && project.fields.languages}</p>
             <div className='details-button-container'>
-            <a className='details-button-containers' rel="noreferrer" target="_blank" href={project && project.fields.github}>SEE CODE <img id='github' src={GitHub} alt="github"/></a>
+            <a className='details-button-containers' rel="noreferrer" target="_blank" href={project && project.fields.github}>SEE CODE <img id='github' src={GitHub} alt="github" alt="github"/></a>
             <a className='details-button-containers' rel="noreferrer" target="_blank" href={project && project.fields.website}>VISIT WEBSITE <img id='external-link' src={ExternalLink} alt="website" /></a>
             </div>
             

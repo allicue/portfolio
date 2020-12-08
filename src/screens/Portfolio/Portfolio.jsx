@@ -17,7 +17,7 @@ function Portfolio(props) {
 
         <div className='portfolio-text-container'>
         <h1 className='portfolio-subtitle'>PORTFOLIO</h1>
-        <h2 className="portfolio-text">Click on a project below for more project details.</h2>
+        <h2 className="portfolio-text">Click on a project below for more information.</h2>
         </div>
 
         <div>

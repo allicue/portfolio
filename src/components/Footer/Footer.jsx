@@ -8,8 +8,8 @@ function Footer(props) {
     <div className='footer'>
       <p className='footer-text'>LET'S CONNECT:</p>
       <div className='footer-icon-container'>
-      <a rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/allisonquiroz/'><img className='footer-icon' src={LinkedIn} /></a>
-      <a rel="noreferrer" target="_blank" href='https://github.com/allicue/'><img className='footer-icon' src={Github}/></a>
+      <a rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/allisonquiroz/'><img className='footer-icon' alt="linkedin" src={LinkedIn} /></a>
+      <a rel="noreferrer" target="_blank" href='https://github.com/allicue/'><img className='footer-icon' alt="github" src={Github}/></a>
       </div>
 
     </div>
